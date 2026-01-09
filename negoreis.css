@@ -110,6 +110,9 @@ header {
   font-size: 13px;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
+  color: #000;
+  -webkit-appearance: none;
+  appearance: none
 }
 
 .filter-btn.active {
@@ -472,4 +475,5 @@ footer {
   .carousel-nav-btn.next {
     right: 8px;
   }
+
 }
