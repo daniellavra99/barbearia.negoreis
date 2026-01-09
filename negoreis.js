@@ -11,7 +11,7 @@ const products = [
     imgs: [
       "imagens/plano.png"
     ],
-    desc: "Plano Mensal por apenas 90 reais, incluindo até 4 cortes no mês, podendo cortar qualquer familiar.\n\nContato: (32) 99283-8169.",
+    desc: "Plano Mensal por apenas 90 reais, incluindo até 4 cortes no mês, podendo cortar qualquer familiar.\n\nContato: (32) 99185-6625.",
     whatsappMsg: "Opa! Tenho interesse no plano mensal de 90 reais, pode me passar mais detalhes?"
   },
   {
@@ -23,7 +23,7 @@ const products = [
       "imagens/corte1.png",
       "imagens/corte2.png"
     ],
-    desc: "Corte de cabelo clássico na tesoura ou máquina, acabamento preciso e finalização profissional.\n\nContato: (32) 99292-8873.",
+    desc: "Corte de cabelo clássico na tesoura ou máquina, acabamento preciso e finalização profissional.\n\nContato: (32) 99185-6625.",
     whatsappMsg: "Olá! Gostaria de marcar um horário para cortar o cabelo."
   },
   {
@@ -35,7 +35,7 @@ const products = [
       "imagens/barba1.png",
       "imagens/barba2.png"
     ],
-    desc: "Modelagem completa da barba com máquina, tesoura e navalha.\n\nContato: (32) 99292-8173.",
+    desc: "Modelagem completa da barba com máquina, tesoura e navalha.\n\nContato: (32) 99185-6625.",
     whatsappMsg: "Olá! Tenho interesse em fazer a barba. Pode me passar mais detalhes?"
   },
   {
@@ -47,7 +47,7 @@ const products = [
       "imagens/camisa1.jpg",
       "imagens/camisa2.jpg"
     ],
-    desc: "Camiseta Oakley, tecido de alta qualidade, conforto e durabilidade.\n\nContato: (32) 99292-8873.",
+    desc: "Camiseta Oakley, tecido de alta qualidade, conforto e durabilidade.\n\nContato: (32) 99185-6625.",
     whatsappMsg: "Olá! Gostaria de saber mais sobre as camisetas Oakley."
   },
   {
@@ -58,7 +58,7 @@ const products = [
     imgs: [
       "imagens/curso1.png"
     ],
-    desc: "Curso completo para quem quer entrar no mercado da barbearia. Do básico ao avançado, com prática real e técnicas atuais.\n\nContato: (32) 97400-1088.",
+    desc: "Curso completo para quem quer entrar no mercado da barbearia. Do básico ao avançado, com prática real e técnicas atuais.\n\nContato: (32) 99185-6625.",
     whatsappMsg: "Olá! Tenho interesse no curso de barbeiro. Ele ainda está disponível?"
   }
 ];
@@ -66,7 +66,7 @@ const products = [
 /***********************
  * CONFIGURAÇÕES RÁPIDAS
  ***********************/
-const whatsappPhone = "5524992928873"; // número em formato internacional sem sinais
+const whatsappPhone = "5532991856625"; // número em formato internacional sem sinais
 const brandName = "Barbearia_ Nego Reis";
 
 /***********************
@@ -259,6 +259,7 @@ qrModal.addEventListener('click', (e) => { if(e.target === qrModal) qrModal.styl
  ***********************/
 
 render();
+
 
 
 
